@@ -1,0 +1,55 @@
+html {
+  margin: 10px;
+  font-family: sans-serif;
+}
+#top-thing {
+  font-size: 12px;
+}
+#slash {
+  color: lightgray;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  width: 50%;
+  font-size: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+header p {
+  width: 70%;
+  font-size: 30px;
+  color: gray;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+header div {
+  text-align: center;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+header div a {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+footer section {
+  position: absolute;
+  display: inline-block;
+  width: 48%;
+}
+footer #second {
+  left: 51%;
+}
+footer section img {
+  padding-top: 40px;
+  float: left;
+}
+footer div {
+  padding-left: 120px;
+}
