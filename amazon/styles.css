@@ -1,1 +1,32 @@
-/* Add your CSS here */
+html {
+  font-family: sans-serif;
+}
+h1 {
+  color: orange;
+  font-size: 30px;
+}
+header p {
+  color: gray;
+  font-size: 13px;
+}
+main section {
+  border-top: 1px solid lightgray;
+  padding-top: 30px;
+  box-sizing: border-box;
+  position: relative;
+}
+main section div {
+  display: inline-block;
+  margin: 10px 20px;
+  width: 200px;
+}
+main section div img {
+  left: 10px;
+  top: 0px;
+}
+main section div a {
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 7px 0px;
+}
