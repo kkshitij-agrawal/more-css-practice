@@ -5,7 +5,7 @@ body {
   width: 869px;
 }
 h1 {
-  background-color: lightgray;
+  background-image: url("https://via.placeholder.com/869x79");
   width: 100%;
   margin: 0px;
   color: white;
@@ -29,18 +29,26 @@ input {
   position: relative;
   width: 99.5%;
 }
+#in-out {
+  margin-top: 10px;
+  position: relative;
+}
+#in, #out {
+  display: inline-block;
+  width: 49.5%;
+}
 #in-out label {
   display: inline-block;
-  position: relative;
+  position: absolute;
 }
 #in-out input {
   display: inline-block;
   top: 20px;
-  width: 45%;
+  width: 100%;
   position: relative;
 }
-#in-out input .in {
-  left: 0px;
+#guests {
+  margin-top: 30px;
 }
 button {
   width: 100%;
@@ -63,18 +71,20 @@ nav a img {
   position: absolute;
   left: 0px;
   top: 0px;
-  height: 100%;
-  width: 80px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 nav a {
   position: relative;
   display: inline-block;
   border-radius: 5px;
   border: 1px solid lightgray;
-  padding-top: 20px;
+  padding-top: 21px;
   padding-bottom: 20px;
   padding-left: 80px;
   width: 150px;
   text-decoration: none;
   color: black;
+  margin-right: 30px;
+  margin-left: 5px;
 }
