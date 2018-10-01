@@ -15,9 +15,9 @@ main section {
   box-sizing: border-box;
   position: relative;
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: wrap row;
   justify-content: flex-start;
-  align-content: flex-start;
+  align-items: flex-start;
 }
 main section article {
   display: inline-block;
