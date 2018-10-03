@@ -3,14 +3,17 @@ html {
   background-color: whitesmoke;
   font-family: sans-serif;
 }
+
 a {
   text-decoration: none;
 }
+
 body {
   position: relative;
   background-color: white;
   border: 1px solid lightgray;
 }
+
 nav {
   position: absolute;
   width: 30%;
@@ -19,6 +22,7 @@ nav {
   height: 100%;
   border-right: 1px solid lightgray;
 }
+
 main {
   position: relative;
   top: 0;
@@ -27,6 +31,7 @@ main {
   box-sizing: border-box;
   padding: 20px 40px;
 }
+
 nav label {
   color: lightgray;
   text-transform: uppercase;
@@ -34,6 +39,7 @@ nav label {
   padding-top: 10px;
   display: block;
 }
+
 nav a {
   display: block;
   color: gray;
@@ -41,11 +47,13 @@ nav a {
   padding-bottom: 20px;
   padding-left: 25px;
 }
+
 nav a:hover {
   color: black;
   border-left: 2px solid black;
   padding-left: 23px;
 }
+
 p {
   color: dimgray;
 }

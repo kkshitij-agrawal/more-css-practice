@@ -4,21 +4,25 @@ body {
   width: 100%;
   max-width: 800px;
 }
+
 h1 {
   text-transform: uppercase;
   font-size: 75px;
   font-family: "Arial Black", Gadget, sans-serif;
   margin: 0px 10px;
 }
+
 video {
   width: 96%;
   margin: 0px 2% 20px 2%;
 }
+
 nav {
   text-transform: uppercase;
   display: flex;
   justify-content: space-evenly;
 }
+
 a {
   font-family: "Arial Black", Gadget, sans-serif;
   text-decoration: none;
@@ -29,6 +33,7 @@ a {
   background-color: maroon;
   color: white;
 }
+
 p {
   margin: 20px;
 }

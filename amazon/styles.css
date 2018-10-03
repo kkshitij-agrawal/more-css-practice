@@ -1,14 +1,17 @@
 html {
   font-family: sans-serif;
 }
+
 h1 {
   color: orange;
   font-size: 30px;
 }
+
 header p {
   color: gray;
   font-size: 13px;
 }
+
 main section {
   border-top: 1px solid lightgray;
   padding-top: 30px;
@@ -19,15 +22,18 @@ main section {
   justify-content: flex-start;
   align-items: flex-start;
 }
+
 main section article {
   display: inline-block;
   margin: 10px 20px;
   min-width: 150px;
 }
+
 main section article img {
   left: 10px;
   top: 0px;
 }
+
 main section article a {
   display: block;
   text-decoration: none;
